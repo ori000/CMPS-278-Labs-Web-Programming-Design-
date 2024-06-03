@@ -1,0 +1,12 @@
+#square
+{
+    width: 200px;
+    height: 200px;
+    background-color: #0000FF;
+    content:'';
+}
+
+section
+{
+    margin-bottom: 20px;
+}

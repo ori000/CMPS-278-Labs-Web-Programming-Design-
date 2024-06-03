@@ -1,0 +1,81 @@
+#radio
+{
+    background-color: #AAAAAA;
+    display: inline;
+    list-style: none;
+}
+body
+{
+    background-color: #A2D2AA;
+}
+section
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+form 
+{
+    max-width: 500px;
+}
+input
+{
+    width: 400px;
+    /* height: 20px; */
+    background-color: #AAAAAA;
+    color: #D3D3D3;
+    border-radius: 20px;
+}
+select
+{
+    width: 410px;
+    height: 20px;
+    background-color: #AAAAAA;
+    color: #D3D3D3;
+}
+textarea
+{
+    background-color:#AAAAAA;
+    color: #D3D3D3;
+}
+
+
+.button
+{
+    width: auto;
+    height: auto;
+    background-color: #FFFF;
+    float: center;
+    color: black;
+}
+.radio
+{
+    width: 150px;
+}
+.r1, .r2
+{
+    border: 1px solid #000000;
+}
+
+/* fieldset {
+    overflow: hidden
+  }
+  
+  .some-class {
+    float: left;
+    clear: none;
+  }
+  
+  label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+  }
+  
+  input[type=radio],
+  input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+  } */

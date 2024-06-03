@@ -1,0 +1,153 @@
+h1
+{
+    font-family: Jazz LET, fantasy;
+}
+header
+{
+    display:inline;
+}
+body
+{
+    border: 5px dashed black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 10px;
+    width: 1900px;
+}
+span
+{
+    float: right;
+    background-color: #FBB600;
+    padding: 10px;
+    font-size: 18px;
+    position: absolute;
+    left: 255px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+    font-family: "Brush Script MS", cursive;
+}
+h3
+{
+    font-family: Comic Sans MS, Comic Sans, 
+    cursive;
+}
+p
+{
+    font-family: Comic Sans MS, Comic Sans, 
+    cursive;
+}
+
+.div1
+{
+    display: flex;
+    padding: 14px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #DDD116;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.UpperButtons
+{
+    display: inline, flex-end;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #2890F8;
+    border: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+}
+.UpperButtons:hover
+{
+    color: #19DC72;
+}
+.navUpper
+{
+    justify-content: flex-end;
+    padding-left: 53%;
+    padding-top: 1%;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-between;
+}
+.mainBody
+{
+    display: flex;
+    justify-content: space-between;
+}
+.imgBadge
+{
+    padding: 30px;
+    padding-right: 30px;
+    z-index: 10;
+    width: 300px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    height: 250px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+    position: absolute;
+    left: 90%;
+    top: 100%;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #FBB600;
+}
+.mainText
+{
+    padding: 40px;
+}
+
+#img
+{
+    display: flex-start;
+    border-radius: 30px;
+    width: 300px;
+    padding: 5%;
+    z-index: 10;
+}
+#InStock
+{
+    color:#19DC72;
+}
+#blueButton
+{
+    width: 300px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #2890F8;
+    opacity: 0.5;
+    border: 0px;
+    font-family: Comic Sans MS, Comic Sans, 
+    cursive;
+    font-size: large;
+    margin-left: 320px;
+    margin-right: 10px;
+    display: inline;
+}
+#greenButton
+{
+    width: 300px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #19DC72;
+    opacity: 0.5;
+    border: 0px;
+    font-family: Comic Sans MS, Comic Sans, 
+    cursive;
+    font-size: large;
+    display: inline;
+}
+#greenButton:hover, #blueButton:hover
+{
+    opacity: 1;
+}
+#lowerButtons
+{
+    border: 5px solid black;
+    display: inline;
+}

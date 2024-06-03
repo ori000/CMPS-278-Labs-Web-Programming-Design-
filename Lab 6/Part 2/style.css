@@ -1,0 +1,54 @@
+#body1
+{
+    background-color: bisque;
+}
+#body1 h1
+{
+    text-align: center;
+}
+#body1 img
+{
+    width: 100px;
+}
+#body2
+{
+    background-color:#01ddFF;
+}
+#body2 h1,h3,h5
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+#body2 img
+{
+    width: 150px;
+}
+#body2 a
+{
+    text-decoration: none;
+    color:black;
+}
+#order
+{
+    background-color: bisque;
+    margin:auto;
+    width: fit-content;
+    padding: 25px;
+    border:2px black dashed;
+}
+
+.div1
+{
+    flex-direction: column;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.invalid
+{
+    background-color: #D3D3D3;
+}
+.newButton{
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="mainPage.js"></script>
+    <title>MainPage</title>
+</head>
+<body id="body1">
+    <h1>Design Your T-Shirt Form</h1>
+    <div class="div1">
+        <form action="Order.html" method="GET">
+
+            <fieldset>
+                <label>Color:</label>
+                <input type="range" min="1" max="3" class="slider" id="sliderOne" onChange="slider()">
+                <label id="colorName">Pink</label><br>
+                <input type="hidden" name="color" value="pink" id="colorIndicator">
+                <img src="../images/pinktshirt.jpg" alt="" id="Image">
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Size</legend>
+                <input type="radio" name="size" value="small">
+                <label>Small</label><br>
+                <input type="radio" name="size" value="Medium">
+                <label>Medium</label><br>
+                <input type="radio" name="size" value="Large">
+                <label>Large</label><br>
+                <input type="radio" name="size" value="X-Large">
+                <label>X-Large</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Brand</legend>
+                <input type="radio" name="brand" value="Nike">
+                <label>Nike</label><br>
+                <input type="radio" name="brand" value="Adidas">
+                <label>Adidas</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Add Your Touch</legend>
+                <input type="checkbox" id="textCheck" onChange="checkText()">
+                <label>Text</label><br>
+                <input class="invalid" type="text" name="text" id="text" readonly>
+                <br>
+                <input type="checkbox" id="imageCheck" onChange="checkImage()">
+                <label>Image</label><br>
+                <input class="invalid" type="text" name="image" id="image" readonly>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment</legend>
+                <input type="radio" name="Payment" value="Cash">
+                <label>Cash</label>
+                <input type="radio" name="Payment" value="MasterCard">
+                <label>MasterCard</label>
+                <input type="radio" name="Payment" value="Visa">
+                <label>Visa</label>
+            </fieldset>
+            
+            <br><br>
+            <button>Next</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿@model StudentSummary
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    @* @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <h2 class="h2">Calculate your GPA</h2>
+    <div class="form-group">
+        <label>Student Name:</label>
+        @Html.TextBoxFor(m => m.StudentName)
+    </div>
+    <div class="form-group">
+        <label>Enrolled Year:</label>
+        @Html.TextBoxFor(m => m.Year)
+    </div>
+    <div class="form-group">
+        <label>Course Grade 1:</label>
+        @Html.TextBoxFor(m => m.Course_1)
+    </div>
+    <div class="form-group">
+        <label>Course Grade 2:</label>
+        @Html.TextBoxFor(m => m.Course_2)
+    </div>
+    <div class="form-group">
+        <label>Course Grade 3:</label>
+        @Html.TextBoxFor(m => m.Course_3)
+    </div>
+    <div class="form-group">
+        <label>GPA:</label>
+        <input type="number" class="form-control" name="GPA" readonly/>
+    </div>
+    <section class="d-flex mt-2">
+    <div class="m-1">
+        <button class="btn btn-info" type="submit">Calculate</button>
+    </div>
+        <div class="m-1">
+        <button class="btn btn-primary" type="reset">Clear</button>
+    </div>
+    </section>
+    } *@
+    <h4 style="color:purple">
+    <b>Name:</b>    @ViewBag.StudentName <br />
+    <b>Year:</b>  @ViewBag.Year <br />
+    <b>Course_1:</b> @ViewBag.Course_1
+</h4>
+
+<form method="POST">
+    <h2 class="h2">Calculate your GPA</h2>
+    <div class="form-group">
+        <label>Student Name:</label>
+        <input type="text" class="form-control" name="StudentName" />
+    </div>
+    <div class="form-group">
+        <label>Enrolled Year:</label>
+        <input type="number" class="form-control" name="Year" />
+    </div>
+    <div class="form-group">
+        <label>Course Grade 1:</label>
+        <input type="number" class="form-control" name="Course_1" />
+    </div>
+    <div class="form-group">
+        <label>Course Grade 2:</label>
+        <input type="number" class="form-control" name="Course_2" />
+    </div>
+    <div class="form-group">
+        <label>Course Grade 3:</label>
+        <input type="number" class="form-control" name="Course_3" />
+    </div>
+    <div class="form-group">
+        <label>GPA:</label>
+        <input type="number" class="form-control" name="GPA" readonly/>
+    </div>
+    <section class="d-flex mt-2">
+    <div class="m-1">
+        <button class="btn btn-info" type="submit">Calculate</button>
+    </div>
+        <div class="m-1">
+        <button class="btn btn-primary" type="reset">Clear</button>
+    </div>
+    </section>
+</form>
+

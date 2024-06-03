@@ -1,0 +1,25 @@
+@media only screen and (max-width: 578px) {
+    .logo {
+      text-align:center;
+      justify-content:center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+.nav-item
+{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#search
+{
+    justify-content: right !important;
+    text-align: right !important;
+}
+#logo
+{
+    justify-content: center !important;
+    text-align: center !important;
+}

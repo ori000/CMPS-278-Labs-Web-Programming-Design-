@@ -1,0 +1,17 @@
+#checkUsername
+{
+    color: #FF0000;
+}
+#checkEmail
+{
+    font-family: monospace;
+    font-weight: lighter;
+}
+#checkPassword
+{
+    color: #FF0000;
+}
+/* #confirmPassword
+{
+    color: #FF0000;
+} */

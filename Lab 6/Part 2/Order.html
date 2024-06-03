@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Order</title>
+</head>
+<body id="body2">
+    <h1>Design Your T-Shirt Form</h1>
+    <div id="order"></div>
+    <script>
+        const orderList = document.getElementById('order');
+        new URLSearchParams(window.location.search).forEach((value,name) => {
+
+            const newDiv = document.createElement('div');
+            var h3 = document.createElement('h3');
+            var h5 = document.createElement('h5');
+            h3.className = "Name"; 
+            h3.innerText=`${name}`;
+            newDiv.append(h3);
+            
+            if(name == 'image' && value != "") 
+            {
+                newDiv.className = "Image"
+                const img = document.createElement('img');
+                img.src = "../images/"+value;
+                newDiv.append(img);
+            }
+            else
+            {
+                h5.className = "Value"; 
+                h5.innerText=`${value}`;
+                newDiv.append(h5);
+            }
+            orderList.append(newDiv);
+            
+        })
+        newButton = document.createElement('button');
+            backButton = document.createElement('a');
+            backButton.href = "mainPage.html";
+            backButton.innerText = "Back"
+            newButton.append(backButton);
+            orderList.append(newButton);
+    </script>
+</body>
+</html>
